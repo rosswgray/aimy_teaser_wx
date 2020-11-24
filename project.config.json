@@ -27,8 +27,8 @@
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "useMultiFrameRuntime": false,
-    "useApiHook": true,
-    "bundle": false
+   "useApiHook": true,
+    "bundle": false 
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
