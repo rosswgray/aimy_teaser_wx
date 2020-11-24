@@ -6,25 +6,6 @@
   "setting": {
     "urlCheck": true,
     "es6": true,
-<<<<<<< HEAD
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": true,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
-=======
     "postcss": true,
     "minified": true,
     "newFeature": true,
@@ -33,26 +14,11 @@
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
->>>>>>> ec9e8f1ad0eb748c180794a668f712c20e11e1e5
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
-<<<<<<< HEAD
-    "enableEngineNative": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.14.0",
-  "appid": "wx202e77f7f26fb1b7",
-  "projectname": "aimy-teaser-wx",
-=======
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
@@ -68,7 +34,6 @@
   "libVersion": "2.14.0",
   "appid": "wx73cb78dfd9052d58",
   "projectname": "aimy_teaser_wx",
->>>>>>> ec9e8f1ad0eb748c180794a668f712c20e11e1e5
   "debugOptions": {
     "hidedInDevtools": []
   },
