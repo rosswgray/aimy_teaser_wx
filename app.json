@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/activity/activity",
+    "pages/images/images"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,5 +11,21 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+     "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "Profile"
+      }
+    ]
+  }
+  
+
+  
 }
