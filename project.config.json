@@ -27,12 +27,12 @@
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "useMultiFrameRuntime": false,
-   "useApiHook": true,
-    "bundle": false 
+    "useApiHook": true,
+    "bundle": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx73cb78dfd9052d58",
+  "appid": "wx931a73e66772de4b",
   "projectname": "aimy_teaser_wx",
   "debugOptions": {
     "hidedInDevtools": []
