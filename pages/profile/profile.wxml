@@ -1,0 +1,33 @@
+
+
+
+<view class="img-container">
+<image src="#" class="img-background"></image>
+<image src="#" class="avatar"></image>
+</view>
+
+<view class="card-container">
+  <view class="card">
+      <view class="img-info">
+      <image mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg" placeholder="Mom with baby" class="card-img"></image>
+      <view class="card-info">
+        <view>
+          <view class="activity-title">Baby Yoga</view>
+        </view>
+        <view>
+          <text class="provider-name">⭐️ Wendy Tseng</text>
+        </view>
+        <view>
+          <text class="location">📍Jing'an District</text>
+        </view>
+      </view>
+    </view>
+      <view class="activity-log">
+        <view style="line-height: 1;">
+          <view class="date">November 25th</view>
+          <button>2 Spots left</button>
+        </view>
+        <text class="card-pricing">¥279</text>
+      </view>
+    </view>
+</view>
