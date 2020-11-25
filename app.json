@@ -7,6 +7,9 @@
     "pages/profile/profile",
     "pages/activities/activites"
   ],
+  "usingComponents": {
+    "card": "/components/card/card"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

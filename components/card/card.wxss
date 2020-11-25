@@ -1,3 +1,5 @@
+@import '/app.wxss';
+
 .home-banener-box .wx-swiper-dot{
   width: 26rpx;
   height: 8rpx;
@@ -63,7 +65,7 @@
    font-weight: bold;
  }
 .div-line {
-  border-right: black 1px solid ;
+  border-right: rgba(0, 0, 0, 0.1) 1px solid ;
   margin: 15px 0px 15px 15px;
 }
 
@@ -91,4 +93,12 @@
  .card-pricing {
   font-weight: bolder;
    color: #2A7AF1;
+ }
+
+ .mb {
+   margin-bottom: 10rpx;
+ }
+
+ .mb20 {
+   margin-bottom: 20rpx;
  }
