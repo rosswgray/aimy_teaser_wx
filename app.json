@@ -1,13 +1,31 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/activity/activity",
+    "pages/images/images",
+    "pages/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Aimy",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+     "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home_icon.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "text": "Profile"
+      }
+    ]
+  }
 }
