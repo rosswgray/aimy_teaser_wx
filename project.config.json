@@ -35,28 +35,16 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-<<<<<<< HEAD
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx931a73e66772de4b",
+  "appid": "wx202e77f7f26fb1b7",
   "projectname": "aimy-teaser-wx",
   "cloudfunctionTemplateRoot": "",
   "watchOptions": {
     "ignore": []
   },
-=======
-    "minifyWXSS": true,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
-    "bundle": false
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.14.0",
-  "appid": "wx202e77f7f26fb1b7",
-  "projectname": "aimy_teaser_wx",
->>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -82,17 +70,14 @@
           "scene": null
         },
         {
-<<<<<<< HEAD
-=======
-          "name": "pages/profile/profile",
-          "pathName": "pages/profile/profile",
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
           "query": "",
           "scene": null
         },
         {
->>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
-          "name": "pages/index/index",
-          "pathName": "pages/index/index",
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
           "scene": null
         }
       ]
