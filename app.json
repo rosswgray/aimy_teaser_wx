@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/activity/activity",
-    "pages/images/images"
+    "pages/images/images",
     "pages/profile/profile"
   ],
   "window": {

@@ -40,3 +40,9 @@
   width: 127px;
   height: 90px; 
 }
+
+.row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

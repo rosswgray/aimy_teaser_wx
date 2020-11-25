@@ -32,7 +32,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx5b316cca36632b87",
+  "appid": "wx202e77f7f26fb1b7",
   "projectname": "aimy_teaser_wx",
   "debugOptions": {
     "hidedInDevtools": []
@@ -56,6 +56,17 @@
           "name": "pages/activity/activity",
           "pathName": "pages/activity/activity",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
           "scene": null
         }
       ]
