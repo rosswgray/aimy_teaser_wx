@@ -8,10 +8,17 @@ Page({
 
   },
 
+goToProfile: function() {
+  wx.navigateTo({
+    url: 'pages/profile/profile',
+  })
+},
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+
 
   },
 

@@ -1,11 +1,11 @@
-<view class="card">
+<view data-id='{{activity.id}}' bindtap='goToShow' class="card">
   <view class="img-info" style="flex-shrink: 0;">
-    <image mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg" 
+    <image mode="aspectFill" src="{{activity.photos}}" 
       placeholder="Mom with baby" 
       class="card-img" style="flex-shrink: 0;"></image>
     
     <view class="card-info">
-      <view class="activity-title mb20">Baby Yoga</view>
+      <view class="activity-title mb20">{{activity.title}}</view>
       <view class="provider-name mb">⭐️ Wendy Tseng</view>
       <view class="location">📍Jing'an District</view>
     </view>
@@ -13,15 +13,15 @@
   </view>
 
   <view wx:if="{{isInstructor}}">
-    I'm a instructor
+    I'm an instructor
   </view>
 
   <view wx:else class="activity-log">
     <view style="line-height: 1;">
-      <view class="date">November 25th</view>
+      <view class="date">{{activity.date}}</view>
       <button>2 Spots left</button>
     </view>
-    <text class="card-pricing">¥279</text>
+    <text class="card-pricing">¥{{activity.price}}</text>
   </view>
 
 </view>

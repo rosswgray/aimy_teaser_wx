@@ -41,13 +41,13 @@ Page({
     })
   },
 
-  goToShow: function(event) {
-    const id = event.currentTarget.dataset.id
-    console.log(id)
-    navigateTo({
-      url: `pages/activity/activity?id=${id}`,
-    })
-  },
+  // goToShow: function(event) {
+  //   const id = event.currentTarget.dataset.id
+  //   console.log(id)
+  //   navigateTo({
+  //     url: `pages/activity/activity?id=${id}`,
+  //   })
+  // },
   /**
    * Lifecycle function--Called when page load
    */
@@ -57,8 +57,8 @@ Page({
     wx.request({
       url: 'https://aimy-teaser.herokuapp.com/api/v1/activities',
       success: function(res) {
-        const activities = res.data
-        page.setData(activities)
+        const activities = res.data.slice(0,3)
+        page.setData({ activities })
         console.log(activities)
       }
     })
