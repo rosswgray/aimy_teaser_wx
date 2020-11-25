@@ -126,10 +126,10 @@ font-size: 36px;
 }
 
 .info_left {
-  font-size: 300px;
+  font-size: 25rpx;
   align-items: center;
 }
 .info_right {
-  font-size: 8px;
+  font-size: 25rpx;
   padding-top: 5px;
 }
