@@ -13,7 +13,7 @@
   </view>
 
   <view wx:if="{{isInstructor}}">
-    I'm a instructor
+    I'm an instructor
   </view>
 
   <view wx:else class="activity-log">

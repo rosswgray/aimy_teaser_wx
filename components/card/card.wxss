@@ -50,7 +50,7 @@
  }
 
 .activity-title {
-  /* font-size: large; */
+  font-size: small;
   font-weight: bolder;
 }
 
@@ -87,7 +87,7 @@
    background-color:  #6E62FF;
    color: white;
    font-weight: bold;
-   font-size: 18rpx;
+   font-size: 17rpx;
  }
 
  .card-pricing {

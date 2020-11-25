@@ -1,5 +1,12 @@
 //app.js
 App({
+  // goToShow: function(event) {
+  //   const id = event.currentTarget.dataset.id
+  //   console.log(id)
+  //   navigateTo({
+  //     url: `pages/activity/activity?id=${id}`,
+  //   })
+  // },
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []

@@ -37,6 +37,7 @@
 
       <view class="info">
         <view class="info_left">
+          <!-- <navigator bindtap="goToProfile" url="#">Book</navigator> -->
       <button> Book </button>
       <text> Address: ShanXi S Road 88 
        地址：陕西南路 88 号
