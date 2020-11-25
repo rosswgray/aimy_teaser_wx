@@ -6,6 +6,9 @@
     "pages/images/images",
     "pages/profile/profile"
   ],
+  "usingComponents": {
+    "card": "/components/card/card"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
