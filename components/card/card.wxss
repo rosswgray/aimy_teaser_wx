@@ -29,12 +29,12 @@
    height: 300rpx;
  }
 
- .slider-child {
+.slider-child {
    position: absolute;
    left: 10px;
    bottom: 10px;
    color: white;
- }
+}
 
  
  .card-img {
@@ -49,10 +49,10 @@
    margin: 5px;
  }
 
- .activity-title {
-   font-size: large;
+.activity-title {
+  /* font-size: large; */
   font-weight: bolder;
- }
+}
 
  .provider-name {
    font-size: small;

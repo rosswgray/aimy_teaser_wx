@@ -4,7 +4,8 @@ Component({
    * Component properties
    */
   properties: {
-    isInstructor: { type: Boolean, value: false }
+    isInstructor: { type: Boolean, value: false },
+    activity: { type: Object, value: {} }
   },
 
   /**

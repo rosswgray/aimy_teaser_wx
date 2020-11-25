@@ -23,6 +23,10 @@
 </swiper>
 
 <view wx:key='index' wx:for="{{activities}}" wx:for-item="activity">
+  <card activity="{{activity}}" />
+</view>
+
+<!-- <view wx:key='index' wx:for="{{activities}}" wx:for-item="activity">
   <view data-id='{{activity.id}}' bindtap='goToShow' class="card">
     <view class="img-info">
     <image mode="aspectFill" src="{{activity.photos}}" placeholder="Mom with baby" class="card-img"></image>
@@ -46,4 +50,4 @@
       <text class="card-pricing">{{activity.price}}</text>
     </view>
   </view>
-</view>
+</view> -->
