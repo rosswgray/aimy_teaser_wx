@@ -3,9 +3,15 @@
   <view class="banner"> 
       <view class="banner_left">
         <text> Amzing activities,
+<<<<<<< HEAD
         just waiting for your children     </text></view>
       <!-- <view > -->
       <!-- <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view> -->
+=======
+        just waiting for your children</text></view>
+      <view >
+      <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view>
+>>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
   </view>
   <view class="container">
       <view class="instructor_card">
@@ -22,7 +28,11 @@
         </view>
       </view>
       <view class="intro">
+<<<<<<< HEAD
         <text class="p">
+=======
+        <text p>
+>>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
         20 places | 4 spots left
 
         Yoga can help kids cope with daily pressure by enhancing self-awareness through non-competitive physical activity, breathing exercises, and meditation. 
@@ -36,12 +46,17 @@
 
 
       <view class="info">
+<<<<<<< HEAD
         <view class="info_left">
+=======
+        <view info_left>
+>>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
       <button> Book </button>
       <text> Address: ShanXi S Road 88 
        地址：陕西南路 88 号
       Phone Number: 186 888 8888 </text>
         </view>
+<<<<<<< HEAD
       <view class="info_right">
         <view class="flex items-center">
           <image mode="aspectFit" class="icon-sm" src="/images/icon3.png"></image>
@@ -63,6 +78,12 @@
           🗓 November 25
           🕰 4 - 5 pm 
           📍 Jing'an </text> -->
+=======
+      <view info_right>
+      <text> 🗓 November 25
+          🕰 4 - 5 pm 
+          📍 Jing'an </text>
+>>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
         </view>
       </view>
       <!-- <image class="xmas" mode="widthFix" src="/images/xmas.gif"></image> -->

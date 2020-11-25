@@ -45,6 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
 }
 
 .flex { display: flex }
@@ -54,3 +55,6 @@
   width: 50rpx;
   height: 50rpx;
 }
+=======
+}
+>>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
