@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<!-- <view class="container">
+<view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,7 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-</view> -->
+</view>
 
   <!-- <view class="banner">
     <view class="banner-left">
@@ -22,7 +22,7 @@
   </view> -->
 
  
-  <swiper indicator-dots="{{indicatorDots}}"
+  <!-- <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -35,14 +35,12 @@
 
             <view style="font-size: small; color: white; font-weight: bold;">📍 Xuhui District</view>
 
-            
-
         </view>
         <image src="{{item}}" class="slide-image" style="width: 100%; height: 400rpx;"/>
      </view>
     </swiper-item>
   </block>
-</swiper>
+</swiper> -->
 
 <!-- <button bindtap="changeIndicatorDots"> indicator-dots </button>
 <button bindtap="changeAutoplay"> autoplay </button>
@@ -50,31 +48,7 @@
 <slider bindchange="durationChange" show-value min="1000" max="10000"/> -->
 
 
-  <view class="card">
-    <view class="img-info">
-    <image mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg" placeholder="Mom with baby" class="card-img"></image>
-    <view class="card-info">
-      <view>
-        <view class="activity-title">Baby Yoga</view>
-      </view>
-      <view>
-        <text class="provider-name">⭐️ Wendy Tseng</text>
-      </view>
-       <view>
-        <text class="location">📍Jing'an District</text>
-      </view>
-    </view>
-  </view>
-    <view class="activity-log">
-      <view style="line-height: 1;">
-        <view class="date">November 25th</view>
-        <button>2 Spots left</button>
-      </view>
-      <text class="card-pricing">¥279</text>
-    </view>
-  </view>
 
-
-
-
-  
+<card />
+<card />
+<card isInstructor />

@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -28,7 +28,6 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
@@ -39,7 +38,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
-  "appid": "wx7dce9cad16101f2e",
+  "appid": "wx5b316cca36632b87",
   "projectname": "aimy-teaser-wx",
   "cloudfunctionTemplateRoot": "",
   "watchOptions": {
@@ -78,6 +77,12 @@
         {
           "name": "pages/profile/profile",
           "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/activities/activites",
+          "pathName": "pages/activities/activites",
           "scene": null
         }
       ]
