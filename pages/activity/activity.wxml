@@ -1,0 +1,52 @@
+<!--pages/activity/activity.wxml-->
+<view class="logo"> Aimy </view>
+  <view class="banner"> 
+      <view class="banner_left">
+        <text> Amzing activities,
+        just waiting for your children</text></view>
+      <view >
+      <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view>
+  </view>
+  <view class="container">
+      <view class="instructor_card">
+        <view class="instructor_card_left">
+            <image class="activity_left" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg"> </image>
+            <text class="activity_middle"> 
+              <text class="bold"> Family Yoga </text>
+                  ☆ by Ross Yoga
+                  ⌲ Jing'an District </text>
+          </view>
+        <view class="instructor_card_right" >      
+          <image class="activity_right" mode="aspectFill" src=" https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4179413864,2815007835&fm=15&gp=0.jpg"> </image>
+          <text>Kyle Yoga</text>
+        </view>
+      </view>
+      <view class="intro">
+        <text p>
+        20 places | 4 spots left
+
+        Yoga can help kids cope with daily pressure by enhancing self-awareness through non-competitive physical activity, breathing exercises, and meditation. 
+        
+        Yoga increases coordination and balance, improves strength and flexibility, and helps build concentration.
+        </text>
+      </view>
+      
+      <view class="divLine"></view>
+    
+
+
+      <view class="info">
+        <view info_left>
+      <button> Book </button>
+      <text> Address: ShanXi S Road 88 
+       地址：陕西南路 88 号
+      Phone Number: 186 888 8888 </text>
+        </view>
+      <view info_right>
+      <text> 🗓 November 25
+          🕰 4 - 5 pm 
+          📍 Jing'an </text>
+        </view>
+      </view>
+      <!-- <image class="xmas" mode="widthFix" src="/images/xmas.gif"></image> -->
+</view>
