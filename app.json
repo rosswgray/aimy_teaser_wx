@@ -18,27 +18,14 @@
      "list": [
       {
         "pagePath": "pages/index/index",
-<<<<<<< HEAD
         "iconPath": "images/home_icon.png",
         "text": "Home"
       },
       {
         "pagePath": "pages/profile/profile",
         "iconPath": "images/profile.png",
-=======
-        "text": "Home"
-      },
-      {
-        "pagePath": "pages/activity/activity",
->>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
         "text": "Profile"
       }
     ]
   }
-<<<<<<< HEAD
-=======
-  
-
-  
->>>>>>> 71a64946857e7c9ad661d4ae59a6e604cb353524
 }
