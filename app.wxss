@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+/* .container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -7,4 +7,36 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}  */
+
+.logo {
+  color: #2A7AF1;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.banner-left {
+  color: white; 
+  background-color: #2A7AF1;
+  font-weight: bold;
+  height: 60px;
+  padding: 5px;
+
+}
+
+.banner-right {
+  height: 100%;
+}
+
+.banner-img {
+  width: 127px;
+  height: 90px; 
+}
