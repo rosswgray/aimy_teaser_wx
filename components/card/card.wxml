@@ -5,7 +5,7 @@
       class="card-img" style="flex-shrink: 0;"></image>
     
     <view class="card-info">
-      <text class="activity-title mb20">{{activity.title}}</text>
+      <view class="activity-title mb20">{{activity.title}}</view>
       <view class="provider-name mb">⭐️ Wendy Tseng</view>
       <view class="location">📍Jing'an District</view>
     </view>
