@@ -88,3 +88,13 @@ button {
   font-weight: bolder;
   color: #2A7AF1;
 }
+
+.search-bar {
+display: flex;
+padding : 15rpx;
+justify-content: center;
+}
+
+.btn-search {
+  background-color: green;
+}
