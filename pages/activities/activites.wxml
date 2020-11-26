@@ -21,14 +21,16 @@
 </swiper>
 
 <!-- [...] -->
+<view class="search-bar">
 <form bindsubmit="submitParams" class="search-bar">
-  <input class="weui-input" name="input" placeholder="Find an activity" />
+  <input class="input" class="weui-input" name="input" placeholder="Find an activity" />
   <view class="btn-area">
       <button class="btn-search" form-type="submit">Search</button>
   </view>
 </form>
+</view>
 
-<view>{{errorMessage}}</view>
+<view class="no-result" >{{errorMessage}}</view>
 
 <!-- the list of activities -->
 

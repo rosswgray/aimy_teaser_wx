@@ -49,7 +49,7 @@ Page({
       url: `http://localhost:3000/api/v1/activities?query=${query}`,
       success: function(res) {
         if (true) {
-          page.setData({errorMessage: "no result found"})
+          page.setData({errorMessage: "Sorry, no result found"})
 
         }
         
