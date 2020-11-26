@@ -41,13 +41,23 @@ Page({
     })
   },
 
-  // goToShow: function(event) {
-  //   const id = event.currentTarget.dataset.id
-  //   console.log(id)
-  //   navigateTo({
-  //     url: `pages/activity/activity?id=${id}`,
-  //   })
-  // },
+  submitParams: function(event) {
+    const page = this;
+    const query = event.detail.value.input
+    console.log(query)
+    wx.request({
+      url: `http://localhost:3000/api/v1/activities?query=${query}`,
+      success: function(res) {
+        if (true) {
+          page.setData({errorMessage: "Sorry, no result found"})
+
+        }
+        
+
+        console.log(res)
+      }
+    })
+  },
   /**
    * Lifecycle function--Called when page load
    */
