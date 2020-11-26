@@ -21,12 +21,15 @@
 </swiper>
 
 <!-- [...] -->
-<view class="search-bar">
+<form bindsubmit="submitParams" class="search-bar">
   <input class="weui-input" name="input" placeholder="Find an activity" />
   <view class="btn-area">
       <button class="btn-search" form-type="submit">Search</button>
   </view>
-</view>
+</form>
+
+<view>{{errorMessage}}</view>
+
 <!-- the list of activities -->
 
 <view wx:key='index' wx:for="{{activities}}" wx:for-item="activity">
