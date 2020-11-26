@@ -14,7 +14,8 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
-    const host = 'https://aimy-teaser.herokuapp.com/'
+    // const host = 'https://aimy-teaser.herokuapp.com/'
+    const host = 'http://localhost:3000/'
     console.log('beginning login')
     wx.login({
       success: (res) => {

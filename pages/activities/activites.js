@@ -54,14 +54,14 @@ Page({
   onLoad: function (options) {
     const page = this;
 
-    // wx.request({
-    //   url: 'https://aimy-teaser.herokuapp.com/api/v1/activities',
-    //   success: function(res) {
-    //     const activities = res.data.slice(0,3)
-    //     page.setData({ activities })
-    //     console.log(activities)
-    //   }
-    // })
+    wx.request({
+      url: 'https://aimy-teaser.herokuapp.com/api/v1/activities',
+      success: function(res) {
+        const activities = res.data.activities
+        page.setData({ activities })
+        console.log(activities)
+      }
+    })
   },
 
   /**
