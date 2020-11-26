@@ -46,7 +46,7 @@ Page({
     const query = event.detail.value.input
     console.log(query)
     wx.request({
-      url: `http://localhost:3000/api/v1/activities?query=${query}`,
+      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?query=${query}`,
       success: function(res) {
         if (true) {
           page.setData({errorMessage: "Sorry, no result found"})

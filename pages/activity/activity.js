@@ -21,6 +21,21 @@ book: function() {
    */
   onLoad: function (options) {
 
+    console.log(options)
+    
+    const id = options.activities[data-id]
+    const activity = activities.find(activity => activity.id == id)
+  
+    const page = this
+    wx.request({
+      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?id=${id}`,
+      success: function (res) {
+        console.log(res)
+        const activity = res.data
+        console.log(activity)
+        page.setData(activity)
+      }
+    })
 
   },
 
