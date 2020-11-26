@@ -91,7 +91,7 @@ font-size: 36px;
  button {
   width: 80%;
   margin-top: 20rpx;
-  background-color:#14E3D3;
+  background-color: #6E62FF;
   color: white;
   border-radius: 3px; 
   width: 116px;
