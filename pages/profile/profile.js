@@ -4,8 +4,8 @@ Page({
   /**
    * Page initial data
    */
-  data: {
-
+  data: { 
+    button: "Cancel"
   },
 
   /**
@@ -22,6 +22,8 @@ Page({
 
   },
 
+
+  
   /**
    * Lifecycle function--Called when page show
    */
@@ -62,5 +64,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  changeData: function() {
+    this.setData({
+      button: "Confirm?"
+    })
   }
 })
+
