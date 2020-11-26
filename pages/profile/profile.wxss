@@ -80,3 +80,9 @@
   padding-left: 8px;
   border-radius: 5px;
 }
+
+.profile-button {
+  height: 50rpx;
+  width: 120rpx;
+  font-size: small;
+}
