@@ -9,8 +9,8 @@ Page({
   },
 
 book: function() {
-  const user_id = getApp().globalData.userInfo.id
-  console.log(user_id)
+  const user_id = getApp().globalData.userInfo
+  console.log(123,user_id)
   wx.switchTab({
     url: '/pages/profile/profile',
   })
