@@ -87,7 +87,7 @@
    background-color:  #6E62FF;
    color: white;
    font-weight: bold;
-   font-size: 17rpx;
+   font-size: 37rpx;
  }
 
  .card-pricing {
