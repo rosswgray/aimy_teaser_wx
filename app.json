@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/activities/activites",
     "pages/activity/activity",
+    "pages/index/index",
     "pages/images/images",
-    "pages/profile/profile",
-    "pages/activities/activites"
+    "pages/profile/profile"
   ],
   "usingComponents": {
     "card": "/components/card/card"
