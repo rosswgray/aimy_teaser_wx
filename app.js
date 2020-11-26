@@ -14,9 +14,26 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
+    const host = 'https://aimy-teaser.herokuapp.com/'
+    // const host = 'http://localhost:3000/'
+    console.log('beginning login')
     wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+      success: (res) => {
+      console.log(res)
+      // insert next code here
+      wx.request({
+        url: host + 'login',
+        method: 'post',
+        data: {
+          code: res.code
+        },
+      // insert next code here
+      success: (res) => {
+        console.log(res)
+        this.globalData.userInfo = res.data.user
+        console.log(111,this.globalData)
+      }
+      })
       }
     })
     // 获取用户信息
