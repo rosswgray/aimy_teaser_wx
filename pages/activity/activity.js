@@ -8,9 +8,11 @@ Page({
 
   },
 
-goToProfile: function() {
-  wx.navigateTo({
-    url: 'pages/profile/profile',
+book: function() {
+  const user_id = getApp().globalData.userInfo
+  console.log(123,user_id)
+  wx.switchTab({
+    url: '/pages/profile/profile',
   })
 },
 
