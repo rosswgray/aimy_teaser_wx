@@ -12,7 +12,10 @@
 
 <!-- Beginning of User bookings -->
 <view class="card-container">
-      <view class="instructor_card">
+  <card wx:for="{{activities}}" wx:key="index" activity="{{item}}" />
+
+
+      <!-- <view class="instructor_card">
         <view class="instructor_card_left">
             <image class="activity_left" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg"> </image>
             <text class="activity_middle"> 
@@ -38,6 +41,6 @@
           <image class="activity_right" mode="aspectFill" src=" https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4179413864,2815007835&fm=15&gp=0.jpg"> </image>
           <button class="profile-button">{{button}}</button>
         </view>
-      </view>
+      </view> -->
     </view>
 

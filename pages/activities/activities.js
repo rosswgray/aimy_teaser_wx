@@ -46,15 +46,15 @@ Page({
     const query = event.detail.value.input
     console.log(query)
     wx.request({
-      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?query=${query}`,
+      url: `${getApp().globalData.host}api/v1/activities?query=${query}`,
       success: function(res) {
-        if (true) {
+        if (res.data) {
+          page.setData({activities: res.data.activities})
+        } else {
           page.setData({errorMessage: "Sorry, no result found"})
-
         }
-        
 
-        console.log(res)
+        console.log(222, res)
       }
     })
   },
@@ -65,10 +65,10 @@ Page({
     const page = this;
 
     wx.request({
-      url: 'https://aimy-teaser.herokuapp.com/api/v1/activities',
+      url: `${getApp().globalData.host}/api/v1/activities`,
       success: function(res) {
         const activities = res.data.activities
-        page.setData({ activities })
+        page.setData({ activities: activities.slice(0,10) })
         console.log(activities)
       }
     })

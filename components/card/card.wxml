@@ -1,6 +1,6 @@
 <view data-id='{{activity.id}}' bindtap='goToShow' class="card">
   <view class="img-info" style="flex-shrink: 0;">
-    <image mode="aspectFill" src="{{activity.photos}}" 
+    <image mode="aspectFill" src="{{activity.main_photo}}" 
       placeholder="Mom with baby" 
       class="card-img" style="flex-shrink: 0;"></image>
     
@@ -9,19 +9,22 @@
       <view class="provider-name mb">{{activity.organizer.name}}</view>
       <view class="location">{{activity.location}}</view>
     </view>
+  </view>
+  
+  <view class="right-box">
     <view class="div-line"></view>
-  </view>
+    
 
-  <view wx:if="{{isInstructor}}">
-    I'm an teacher
-  </view>
-
-  <view wx:else class="activity-log">
-    <view style="line-height: 1;">
-      <view class="date">{{activity.date}}</view>
-      <button>{{activity.rating}}</button>
+    <view wx:if="{{isInstructor}}">
+      I'm an teacher
     </view>
-    <text class="card-pricing">¥{{activity.price}}</text>
-  </view>
 
+    <view wx:else class="activity-log">
+      <view style="line-height: 1;">
+        <view class="date">{{activity.date}}</view>
+        <button>{{activity.rating}}</button>
+      </view>
+      <text class="card-pricing">¥{{activity.price}}</text>
+    </view>
+  </view>
 </view>

@@ -19,10 +19,11 @@
 <!-- [...] -->
 <view class="search-bar">
   <form bindsubmit="submitParams" >
-    <input class="weui-input" name="input" placeholder="Find an activity" />
-      <view class="btn-area">
+    <view class="form">
+      <input class="weui-input" name="input" placeholder="Find an activity" /> 
       <button class="btn-search" form-type="submit">Search</button>
-      </view>
+    </view>
+
   </form>
 </view>
 
@@ -30,7 +31,8 @@
 
 <!-- the list of activities -->
 
-<view wx:key='index' wx:for="{{activities}}" wx:for-item="activity">
+<view wx:key='index' wx:for="{{activities}}" wx:for-item="activity" 
+  style="box-sizing: border-box; padding: 0 20rpx;">
   <card activity="{{activity}}" />
 </view>
 

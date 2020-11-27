@@ -34,7 +34,8 @@
  .card-container {
    width: 100%;
    align-items: center;
-   padding-left: 20px;
+   padding: 0 10px;
+   box-sizing: border-box;
  }
 
  .instructor_card {

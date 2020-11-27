@@ -22,11 +22,13 @@
       {
         "pagePath": "pages/activities/activities",
         "iconPath": "images/home_icon.png",
+        "selectedIconPath": "images/home_icon.png",
         "text": "Home"
       },
       {
         "pagePath": "pages/profile/profile",
         "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile.png",
         "text": "Profile"
       }
     ]
