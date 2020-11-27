@@ -1,4 +1,4 @@
-/* pages/activities/activites.wxss */
+/* pages/activities/activities.wxss */
 .home-banener-box .wx-swiper-dot{
   width: 26rpx;
   height: 8rpx;

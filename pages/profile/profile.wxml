@@ -7,7 +7,7 @@
 
 <view class="divLine"></view>
 <view style="margin-bottom: 50rpx;" class="row-center">
-  <view class="my-bookings">My Bookings</view>
+    <view class="my-bookings">My Bookings</view>
 </view>
 
 <!-- Beginning of User bookings -->
