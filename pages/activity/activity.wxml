@@ -1,28 +1,32 @@
+<!-- swiper  -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <view class="slider-parent">
+        <image src="{{item}}" class="slide-image" style="width: 100%; height: 400rpx;"/>
+     </view>
+    </swiper-item>
+  </block>
+</swiper>
+
 <!--pages/activity/activity.wxml-->
 <!-- <view class="logo"> Aimy </view> -->
       <!-- <view > -->
       <!-- <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view> -->
   <view class="container">
-      <view class="instructor_card">
-        <view class="instructor_card_left">
-            <image class="activity_left" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg"> </image>
-            <text class="activity_middle"> 
-              <text class="bold"> {{title}} </text>
-                  ☆ by Ross Yoga
-                  ⌲ Jing'an District </text>
-          </view>
-        <view class="instructor_card_right" >      
-          <image class="activity_right" mode="aspectFill" src=" https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4179413864,2815007835&fm=15&gp=0.jpg"> </image>
-          <text>Kyle Yoga</text>
-        </view>
-      </view>
+      
       <view class="intro">
-        <text class="p">
-        20 places | 4 spots left
 
-        Yoga can help kids cope with daily pressure by enhancing self-awareness through non-competitive physical activity, breathing exercises, and meditation. 
-        
-        Yoga increases coordination and balance, improves strength and flexibility, and helps build concentration.
+        <!-- work in process Arnaud -->
+
+        <text class="p">
+        <text class="activity-title">{{title}}</text>
+        <!-- <text>{{activity.organizer.name}}</text> -->
+
+        {{capacity}} | {{capacity - bookings.length}}
+
+        {{description}}
         </text>
       </view>
       
@@ -41,12 +45,12 @@
       <view class="info_right">
         <view class="flex items-center">
           <image mode="aspectFit" class="icon-sm" src="/images/icon3.png"></image>
-          <view>November 25</view>
+          <view>{{date}}</view>
         </view>
 
         <view class="flex items-center">
           <image mode="aspectFit" class="icon-sm" src="/images/icon1.png"></image>
-          <view> 4 - 5 pm </view>
+          <view>{{start_time}} - {{end_time}} </view>
         </view>
 
         <view class="flex items-center">

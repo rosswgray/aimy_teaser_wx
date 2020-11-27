@@ -1,3 +1,26 @@
+.home-banener-box .wx-swiper-dot{
+  width: 26rpx;
+  height: 8rpx;
+  border-radius:3rpx;
+  background: #ccc;
+}
+.home-banener-box .wx-swiper-dot-active{
+  background: #fff;
+}
+
+
+.slider-parent{
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+}
+
+.activity-name {
+  color: #2A7AF1;
+  font-size: large;
+  font-weight: bold;
+}
+
 .logo {
 color: #2A7AF1;
 text-align: center;

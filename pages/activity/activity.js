@@ -5,7 +5,11 @@ Page({
    * Page initial data
    */
   data: {
-
+    imgUrls: ["/images/1597004.jpg", "/images/baby-playing1.jpg", "/images/frontiers-in-education-preschool.jpg", "/images/c3e44acba36904a565209ab331bdcc64f868cf15_August_banner_28.jpg"],
+    indicatorDots: false,
+    autoplay: true,
+    interval: 5000,
+    duration: 1000
   },
 
 book: function() {
@@ -16,27 +20,25 @@ book: function() {
   })
 },
 
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
 
-    console.log(options)
-    
-    const id = options.activities[data-id]
-    const activity = activities.find(activity => activity.id == id)
-  
     const page = this
+    const id = options.id
+  
     wx.request({
-      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?id=${id}`,
+      url: `https://aimy-teaser.herokuapp.com/api/v1/activities/${id}`,
       success: function (res) {
-        console.log(res)
+        console.log("READ", res)
         const activity = res.data
-        console.log(activity)
+        // console.log(activity)
         page.setData(activity)
       }
     })
-
+    
   },
 
   /**
