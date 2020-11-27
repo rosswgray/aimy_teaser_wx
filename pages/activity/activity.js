@@ -30,7 +30,7 @@ book: function() {
     const id = options.id
   
     wx.request({
-      url: `https://aimy-teaser.herokuapp.com/api/v1/activities/${id}`,
+      url: `${getApp().globalData.host}api/v1/activities/${id}`,
       success: function (res) {
         console.log("READ", res)
         const activity = res.data
