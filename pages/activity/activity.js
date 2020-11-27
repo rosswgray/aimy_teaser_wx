@@ -20,27 +20,25 @@ book: function() {
   })
 },
 
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
 
-    console.log(options)
-    
-    const id = options.activities[data-id]
-    const activity = activities.find(activity => activity.id == id)
-  
     const page = this
+    const id = options.id
+  
     wx.request({
-      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?id=${id}`,
+      url: `https://aimy-teaser.herokuapp.com/api/v1/activities/${id}`,
       success: function (res) {
-        console.log(res)
+        console.log("READ", res)
         const activity = res.data
-        console.log(activity)
+        // console.log(activity)
         page.setData(activity)
       }
     })
-
+    
   },
 
   /**

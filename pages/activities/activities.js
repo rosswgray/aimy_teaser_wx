@@ -72,6 +72,7 @@ Page({
         console.log(activities)
       }
     })
+
   },
 
   /**
