@@ -8,7 +8,8 @@
       <view class="slider-parent">
         <view class="slider-child">
 
-            <view style="font-size: large; color: white; font-weight: bolder;">Amazing activities,<br/>just waiting for your children </view>
+            <view style="font-size: large; color: white; font-weight: bolder;"><text>Amazing activities,
+              just waiting for your children</text></view>
 
             <views style="font-size: small; color: white; font-weight:lighter;"></views>
 

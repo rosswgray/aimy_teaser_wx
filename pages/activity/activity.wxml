@@ -32,37 +32,33 @@
       </view>
       
       <view class="divLine"></view>
-    
+
       <view class="info">
         <view class="info_left">
-          <!-- <navigator bindtap="goToProfile" url="#">Book</navigator> -->
-      <button bindtap="book"> Book </button>
-      <text> Address: ShanXi S Road 88 
-       地址：陕西南路 88 号
-      Phone Number: 186 888 8888 </text>
+      <button class="btn-book" bindtap="book"> Book </button>
+      <!-- <text>{{location}}</text> -->
         </view>
-      <view class="info_right">
-        <view class="flex items-center">
-          <image mode="aspectFit" class="icon-sm" src="/images/icon3.png"></image>
-          <view>{{date}}</view>
-        </view>
+      
+        <view class="info_right">
 
-        <view class="flex items-center">
-          <image mode="aspectFit" class="icon-sm" src="/images/icon1.png"></image>
-          <view>{{start_time}} - {{end_time}} </view>
-        </view>
+          <view class="flex items-center">
+            <image mode="aspectFit" class="icon-sm" src="/images/icon2.png"></image>
+            <view>{{date}}</view>
+          </view>
 
-        <view class="flex items-center">
-          <image mode="aspectFit" class="icon-sm" src="/images/icon2.png"></image>
-          <view> Jing'an </view>
-        </view>
-        
+          <view class="flex items-center">
+            <image mode="aspectFit" class="icon-sm" src="/images/icon3.png"></image>
+            <view> 11 -12 </view>
+          </view>
 
-      <!-- <text> 
-          🗓 November 25
-          🕰 4 - 5 pm 
-          📍 Jing'an </text> -->
+          <view class="flex items-center">
+            <image mode="aspectFit" class="icon-sm" src="/images/icon1.png"></image>
+            <view>{{location}}</view>
+          </view>
+
         </view>
+        <!-- End of icons information -->
+
       </view>
       <!-- <image class="xmas" mode="widthFix" src="/images/xmas.gif"></image> -->
 </view>
