@@ -22,9 +22,8 @@
   font-size: 35rpx;
   font-weight: bolder;
   color: #2A7AF1;
-  border-bottom: black 1px solid;
-  margin-top: 20rpx;
-}
+  margin-top: 20rpx;}
+  
 
 .divLine{
   background:#2A7AF1;
