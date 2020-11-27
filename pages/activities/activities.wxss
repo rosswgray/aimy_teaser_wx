@@ -92,6 +92,11 @@ button {
 .search-bar {
 display: flex;
 padding : 15rpx;
+margin-left: 36px;
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+align-items: center;
+width: 600rpx;
+border-radius: 7px;
 }
 
 .btn-search {
@@ -99,7 +104,7 @@ padding : 15rpx;
   width: 130rpx;
   height: 60rpx;
   font-size: 22rpx;
-  justify-items: center;
+  align-items: center;
   padding-bottom: 30rpx;
 }
 
