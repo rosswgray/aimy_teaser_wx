@@ -1,5 +1,6 @@
-<!--pages/activities/activites.wxml-->
+<!--pages/activities/activities.wxml-->
 
+<!-- swiper  -->
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">

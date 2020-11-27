@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/activities/activites",
+    "pages/activities/activities",
     "pages/activity/activity",
     "pages/index/index",
     "pages/images/images",
@@ -20,7 +20,7 @@
   "tabBar": {
      "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/activities/activities",
         "iconPath": "images/home_icon.png",
         "text": "Home"
       },

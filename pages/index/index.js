@@ -43,7 +43,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../activities/activites'
+      url: '../activities/activities'
     })
   },
   onLoad: function () {

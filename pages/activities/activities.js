@@ -1,4 +1,4 @@
-// pages/activities/activites.js
+// pages/activities/activities.js
 
 Page({
   /**
