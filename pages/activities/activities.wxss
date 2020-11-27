@@ -113,7 +113,7 @@ button {
 
 
 .btn-search {
-  background-color: green;
+  background-color: #14E3D3;
   width: 130rpx;
   height: 60rpx;
   font-size: 22rpx;
