@@ -22,7 +22,9 @@
     <view wx:else class="activity-log">
       <view style="line-height: 1;">
         <view class="date">{{activity.date}}</view>
-        <button>{{activity.rating}}</button>
+        <view style="display: flex; justify-content: center;">
+          <view wx:for="{{activity.rating}}">🌈</view>
+        </view>
       </view>
       <text class="card-pricing">¥{{activity.price}}</text>
     </view>
