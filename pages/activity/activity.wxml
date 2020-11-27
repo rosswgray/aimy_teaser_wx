@@ -52,7 +52,7 @@
           </view>
 
           <view class="flex items-center">
-            <image mode="aspectFit" class="icon-sm" src="/images/icon1.png"></image>
+            <image mode="aspectFit" class="icon-sm" src="/images/new_icon.png"></image>
             <view class="info-text">{{location}}</view>
           </view>
 
