@@ -7,7 +7,7 @@
     <view class="card-info">
       <view class="activity-title mb20">{{activity.title}}</view>
       <view class="provider-name mb">{{activity.organizer.name}}</view>
-      <view class="location">Jing'an District</view>
+      <view class="location">{{activity.location}}</view>
     </view>
   </view>
   
