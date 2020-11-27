@@ -1,6 +1,6 @@
 <view data-id='{{activity.id}}' bindtap='goToShow' class="card">
   <view class="img-info" style="flex-shrink: 0;">
-    <image mode="aspectFill" src="{{activity.photos}}" 
+    <image mode="aspectFill" src="{{activity.main_photo}}" 
       placeholder="Mom with baby" 
       class="card-img" style="flex-shrink: 0;"></image>
     
