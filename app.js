@@ -58,7 +58,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    // host: 'https://aimy-teaser.herokuapp.com/',
-    host: 'http://localhost:3000/',
+    host: 'https://aimy-teaser.herokuapp.com/',
+    // host: 'http://localhost:3000/',
   }
 })
