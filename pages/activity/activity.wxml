@@ -17,12 +17,16 @@
         </view>
       </view>
       <view class="intro">
-        <text class="p">
-        20 places | 4 spots left
 
-        Yoga can help kids cope with daily pressure by enhancing self-awareness through non-competitive physical activity, breathing exercises, and meditation. 
-        
-        Yoga increases coordination and balance, improves strength and flexibility, and helps build concentration.
+        <!-- work in process Arnaud -->
+
+        <text class="p">
+        <text class="activity-title">{{title}}</text>
+        <!-- <text>{{activity.organizer.name}}</text> -->
+
+        {{capacity}} | {{capacity - bookings.length}}
+
+        {{description}}
         </text>
       </view>
       
@@ -41,12 +45,12 @@
       <view class="info_right">
         <view class="flex items-center">
           <image mode="aspectFit" class="icon-sm" src="/images/icon3.png"></image>
-          <view>November 25</view>
+          <view>{{date}}</view>
         </view>
 
         <view class="flex items-center">
           <image mode="aspectFit" class="icon-sm" src="/images/icon1.png"></image>
-          <view> 4 - 5 pm </view>
+          <view>{{start_time}} - {{end_time}} </view>
         </view>
 
         <view class="flex items-center">
