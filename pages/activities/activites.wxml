@@ -23,7 +23,7 @@
 <!-- [...] -->
 <view class="search-bar">
   <form bindsubmit="submitParams" >
-    <input class="input" class="weui-input" name="input" placeholder="Find an activity" />
+    <input class="weui-input" name="input" placeholder="Find an activity" />
       <view class="btn-area">
       <button class="btn-search" form-type="submit">Search</button>
       </view>

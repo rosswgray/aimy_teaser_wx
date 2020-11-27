@@ -103,6 +103,11 @@ padding : 15rpx;
   padding-bottom: 30rpx;
 }
 
+#input {
+  border: 1rpx soldid grey;
+  color: blue;
+}
+
 .btn-area {
   padding-top: 20rpx;
   width: 160rpx;
