@@ -1,18 +1,13 @@
 <!--pages/activity/activity.wxml-->
-<view class="logo"> Aimy </view>
-  <view class="banner"> 
-      <view class="banner_left">
-        <text> Amzing activities,
-        just waiting for your children     </text></view>
+<!-- <view class="logo"> Aimy </view> -->
       <!-- <view > -->
       <!-- <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view> -->
-  </view>
   <view class="container">
       <view class="instructor_card">
         <view class="instructor_card_left">
             <image class="activity_left" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3537759114,2989491629&fm=15&gp=0.jpg"> </image>
             <text class="activity_middle"> 
-              <text class="bold"> Family Yoga </text>
+              <text class="bold"> {{title}} </text>
                   ☆ by Ross Yoga
                   ⌲ Jing'an District </text>
           </view>

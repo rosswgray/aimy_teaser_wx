@@ -6,20 +6,20 @@
     
     <view class="card-info">
       <view class="activity-title mb20">{{activity.title}}</view>
-      <view class="provider-name mb">⭐️ Wendy Tseng</view>
-      <view class="location">📍Jing'an District</view>
+      <view class="provider-name mb">{{activity.organizer.name}}</view>
+      <view class="location">Jing'an District</view>
     </view>
     <view class="div-line"></view>
   </view>
 
   <view wx:if="{{isInstructor}}">
-    I'm an instructor
+    I'm an teacher
   </view>
 
   <view wx:else class="activity-log">
     <view style="line-height: 1;">
       <view class="date">{{activity.date}}</view>
-      <button>2 Spots left</button>
+      <button>2 left</button>
     </view>
     <text class="card-pricing">¥{{activity.price}}</text>
   </view>

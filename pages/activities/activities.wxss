@@ -92,16 +92,25 @@ button {
 .search-bar {
 display: flex;
 padding : 15rpx;
-justify-content: center;
 }
 
 .btn-search {
   background-color: green;
-  width: 100rpx;
+  width: 130rpx;
+  height: 60rpx;
+  font-size: 22rpx;
+  justify-items: center;
+  padding-bottom: 30rpx;
+}
+
+#input {
+  border: 1rpx soldid grey;
+  color: blue;
 }
 
 .btn-area {
   padding-top: 20rpx;
+  width: 160rpx;
 }
 
 .no-result {
