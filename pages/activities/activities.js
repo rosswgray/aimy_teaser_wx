@@ -5,6 +5,7 @@ Page({
    * Page initial data
    */
   data: {
+    // ratings: ["⭐️", "⭐️⭐️", "⭐️⭐️⭐️"],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
