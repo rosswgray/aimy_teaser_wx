@@ -88,16 +88,21 @@ button {
   font-weight: bolder;
   color: #2A7AF1;
 }
-
 .search-bar {
-display: flex;
-padding : 15rpx;
-margin-left: 36px;
-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-align-items: center;
-width: 600rpx;
-border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding : 15px;
+  align-items: center;
+  
+  }
+.weui-input {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  width: 600rpx;
+  height: 62rpx;
+
 }
+
 
 .btn-search {
   background-color: green;
@@ -108,10 +113,10 @@ border-radius: 7px;
   padding-bottom: 30rpx;
 }
 
-#input {
+/* #input {
   border: 1rpx soldid grey;
   color: blue;
-}
+} */
 
 .btn-area {
   padding-top: 20rpx;
@@ -122,4 +127,9 @@ border-radius: 7px;
 font-size: 30rpx;
 color: rgb(202, 42, 42);
 justify-content: center;
+}
+.form {
+  display:flex;
+  flex-direction: row;
+
 }
