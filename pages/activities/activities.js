@@ -1,4 +1,4 @@
-// pages/activities/activites.js
+// pages/activities/activities.js
 
 Page({
   /**
@@ -41,13 +41,23 @@ Page({
     })
   },
 
-  // goToShow: function(event) {
-  //   const id = event.currentTarget.dataset.id
-  //   console.log(id)
-  //   navigateTo({
-  //     url: `pages/activity/activity?id=${id}`,
-  //   })
-  // },
+  submitParams: function(event) {
+    const page = this;
+    const query = event.detail.value.input
+    console.log(query)
+    wx.request({
+      url: `https://aimy-teaser.herokuapp.com/api/v1/activities?query=${query}`,
+      success: function(res) {
+        if (true) {
+          page.setData({errorMessage: "Sorry, no result found"})
+
+        }
+        
+
+        console.log(res)
+      }
+    })
+  },
   /**
    * Lifecycle function--Called when page load
    */
@@ -57,7 +67,7 @@ Page({
     wx.request({
       url: 'https://aimy-teaser.herokuapp.com/api/v1/activities',
       success: function(res) {
-        const activities = res.data.slice(0,3)
+        const activities = res.data.activities
         page.setData({ activities })
         console.log(activities)
       }

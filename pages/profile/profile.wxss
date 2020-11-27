@@ -22,9 +22,8 @@
   font-size: 35rpx;
   font-weight: bolder;
   color: #2A7AF1;
-  border-bottom: black 1px solid;
-  margin-top: 20rpx;
-}
+  margin-top: 20rpx;}
+  
 
 .divLine{
   background:#2A7AF1;
@@ -79,4 +78,10 @@
   Height: 82px;
   padding-left: 8px;
   border-radius: 5px;
+}
+
+.profile-button {
+  height: 50rpx;
+  width: 120rpx;
+  font-size: small;
 }
