@@ -16,12 +16,6 @@ book: function() {
   })
 },
 
-  // capacityCounter: function() {
-  //   const page = this
-  //   const delta = capacity - bookings.length;
-  //   return delta
-  // },
-
 
   /**
    * Lifecycle function--Called when page load
