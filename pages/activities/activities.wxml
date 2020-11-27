@@ -35,7 +35,8 @@
 
 <!-- the list of activities -->
 
-<view wx:key='index' wx:for="{{activities}}" wx:for-item="activity">
+<view wx:key='index' wx:for="{{activities}}" wx:for-item="activity" 
+  style="box-sizing: border-box; padding: 0 20rpx;">
   <card activity="{{activity}}" />
 </view>
 
