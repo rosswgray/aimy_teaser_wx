@@ -15,25 +15,24 @@
       <!-- <view > -->
       <!-- <image class ="banner_image" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3422155737,903922931&fm=15&gp=0.jpg"> </image> </view> -->
   <view class="container">
-      
+    <view class="title-and-organizer">
+      <text class="activity-title">{{title}}</text>
+      <text class="organizer">{{activity.organizer.name}}</text>
+    </view>
       <view class="intro">
 
         <!-- work in process Arnaud -->
-
         <text class="p">
-        <text class="activity-title">{{title}}</text>
         <!-- <text>{{activity.organizer.name}}</text> -->
-
-        {{capacity}} | {{capacity - bookings.length}}
-
+        <text class="capacity">{{capacity}} spaces || {{capacity - bookings.length}} left</text>
+    
         {{description}}
+
         </text>
       </view>
       
       <view class="divLine"></view>
     
-
-
       <view class="info">
         <view class="info_left">
           <!-- <navigator bindtap="goToProfile" url="#">Book</navigator> -->
