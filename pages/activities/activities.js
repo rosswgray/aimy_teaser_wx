@@ -49,10 +49,12 @@ Page({
     wx.request({
       url: `${getApp().globalData.host}api/v1/activities?query=${query}`,
       success: function(res) {
-        if (res.data) {
-          page.setData({activities: res.data.activities})
+        if (res.data.activities.length === 0) {
+          console.log(res.data.activities)
+
+          page.setData({errorMessage: "👶 Sorry, no match found!"})
         } else {
-          page.setData({errorMessage: "Sorry, no result found"})
+          page.setData({activities: res.data.activities})
         }
 
         console.log(222, res)

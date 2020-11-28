@@ -135,6 +135,7 @@ button {
 font-size: 30rpx;
 color: rgb(202, 42, 42);
 justify-content: center;
+padding-left: 30rpx;
 }
 .form {
   display:flex;
